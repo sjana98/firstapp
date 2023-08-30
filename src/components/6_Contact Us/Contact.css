@@ -1,0 +1,147 @@
+/* Contact CSS */
+#Contact{
+    padding: 9.5rem 0 5.5rem;
+    overflow: hidden;
+
+    
+    @media (max-width:768px) {
+        padding: 7rem 0;
+    }
+    @media (max-width:470px) {
+        padding: 3.5rem 0;
+    }
+
+    .contact_wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+        flex-wrap: wrap;
+
+        @media (max-width:992px) {
+            justify-content: center;
+        }
+        @media (max-width:767px) {
+            flex-direction: column;
+        }
+
+        .contact_col{
+            width: calc(100% / 2 - 1rem);
+            padding: 1rem;
+            box-sizing: border-box;
+            
+            @media (max-width:992px) {
+                width: 50%;
+            }
+            @media (max-width:768px) {
+                width: 100%;
+            }
+        }
+
+        .input_wrapper{
+            width: 100%;
+            display: flex;
+
+            .form-control{
+                width: 100%;
+                background-color: transparent;
+                border: .0714rem solid var(--white-color);
+                color: var(--white-color);
+                font-size: 1.0714rem;
+                font-weight: 400;
+                padding: .7143rem 1.4286rem;
+                border-radius: .5714rem;
+                margin-bottom: 3rem;
+            }
+            & textarea{
+                width: 100%;
+                display: block;
+                background-color: transparent;
+                border: .0714rem solid var(--white-color);
+                color: var(--white-color);
+                font-size: 1.0714rem;
+                font-weight: 400;
+                padding: .7143rem 1.4286rem;
+                border-radius: .5714rem;
+                min-height: 7.1429rem;
+            }
+
+            .form-control:hover,
+            & textarea:hover,
+            .form-control:focus,
+            & textarea:focus{
+                border-color: var(--primary-color);
+                color: var(--white-color);
+            }
+        }
+
+        & form{
+            position: relative;
+
+            @media (min-width:1440px) {
+                &:after{
+                    content: '';
+                    position: absolute;
+                    border: 35px double var(--border-color);
+                    top: -145px;
+                    right: -500px;
+                    bottom: 45px;
+                    left: 655px;
+                    border-radius: 2.1429rem;
+                }
+            }
+        }
+         
+        .btn_wrapper{
+            margin-top: 2rem;
+            padding-bottom: 2.5rem;
+            
+            @media (max-width:425px) {
+            padding-bottom: 0.7rem;
+            }
+
+        }
+
+        .contact_image{
+            position: relative;
+            text-align: center;
+
+            &:after{
+                content: '';
+                position: absolute;
+                border: 35px double var(--border-color);
+                top: -85px;
+                right: 145px;
+                bottom: 70px;
+                left: -400px;
+                z-index: 1;
+                border-radius: 2.1429rem;
+            }
+            @media (max-width:425px) {
+                &:after{
+                    border: 25px double var(--secondary-color);
+                }
+            }
+
+            & img{
+                position: relative;
+                border-radius: 2.1429rem;
+                z-index: 5;
+                max-width: 80%;
+            }
+        }
+
+        .social_icon{
+            font-size: 1.7rem;
+            height: 6rem;
+            margin-right: .8rem;
+            padding: .5rem 1rem 0 .5rem;
+            border-radius: 50%;
+            color: var(--font-color);
+            box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.271);
+
+            &:hover{
+                color: var(--primary-nav-color);
+            }
+        }
+    }
+}
