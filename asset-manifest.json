@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactfirstapp/static/css/main.ecc3b0a0.css",
+    "main.js": "/reactfirstapp/static/js/main.9f65ee93.js",
+    "static/js/787.0edbcda9.chunk.js": "/reactfirstapp/static/js/787.0edbcda9.chunk.js",
+    "static/media/layer.png": "/reactfirstapp/static/media/layer.6259a0a19f0c10edb7ce.png",
+    "static/media/contact.jpg": "/reactfirstapp/static/media/contact.a66df18e2f821cc6f477.jpg",
+    "static/media/about_img.jpg": "/reactfirstapp/static/media/about_img.f1a87c36ce1dc831bfd3.jpg",
+    "static/media/blog.jpg": "/reactfirstapp/static/media/blog.38eedf5167ed24acc8fb.jpg",
+    "static/media/banner-img.jpg": "/reactfirstapp/static/media/banner-img.d7dfc29a62eeb89d5381.jpg",
+    "static/media/banner.png": "/reactfirstapp/static/media/banner.908f1105e63bdffa53c0.png",
+    "static/media/logo.png": "/reactfirstapp/static/media/logo.3485ff0328c7a8e94801.png",
+    "index.html": "/reactfirstapp/index.html",
+    "main.ecc3b0a0.css.map": "/reactfirstapp/static/css/main.ecc3b0a0.css.map",
+    "main.9f65ee93.js.map": "/reactfirstapp/static/js/main.9f65ee93.js.map",
+    "787.0edbcda9.chunk.js.map": "/reactfirstapp/static/js/787.0edbcda9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecc3b0a0.css",
+    "static/js/main.9f65ee93.js"
+  ]
+}
